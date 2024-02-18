@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+<link rel="stylesheet" href="./style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:slnt,wght@-10..0,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<body  >
+    <header class="container raleway-font  mx-auto lg:px-24 px-8 my-8 ">
+        <!-- navigation bar -->
+        <div class="navbar bg-base-100">
+            <div class="navbar-start">
+              <div class="dropdown">
+                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                </div>
+                <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 font-medium text-lg text-[#030712] rounded-box w-52">
+                  <li><a>Home</a></li>
+                  <li><a>About</a></li>
+                  <li><a>Destination</a></li>
+                  
+                  <li><a>Search</a></li>
+                </ul>
+              </div>
+              <div><h1 class=" text-[#030712] font-extrabold text-2xl md:text-4xl lg:text-4xl">P-Ticket</h1></div>
+            </div>
+            <div class="navbar-center hidden lg:flex">
+              <ul class="menu menu-horizontal px-1">
+                <li><a>Home</a></li>
+                <li><a>About</a></li>
+                <li><a>Destination</a></li>
+                
+                <li><a>Search</a></li>
+              </ul>
+            </div>
+            <div class="navbar-end">
+              <a class="btn btn-primary py-2 px-6 bg-[#1DD1001A] border-none text-[#1DD100]">Bus <img src="./images/bus-icon.png" alt=""></a>
+            </div>
+          </div>
+          <!-- navigation bar end -->
+          <!-- banner section start -->
+         <div class="py-4 ">
+
+          <div class="hero rounded-xl h-[550px]" style="background-image: url('./images/banner.png');">
+            <div class="hero-overlay hero rounded-xl bg-opacity-10"></div>
+            <div class="hero-content text-center text-neutral-content">
+              <div class="max-w-3xl">
+                <h1 class="mb-5 text-2xl lg:text-6xl text-white font-extrabold ">End-to-End Travel with  <br> <span class="text-[#1DD100]">P Paribahan</span></h1>
+                <p class="mb-5">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
+                <button class="btn btn-primary px-8 bg-[#1DD100] text-black border-none">Get Started</button>
+              </div>
+            </div>
+          </div>
+<!-- -----------------card -->
+          <div class="h-[20vh]  lg:flex w-3/4 mx-auto  mt-4  lg:justify-center lg:items-center rounded-lg lg:-translate-y-24">
+            <div class="flex items-center lg:flex-row  flex-col lg:justify-around space-y-4 lg:space-y-0 space-x-4">
+               
+<!-- ----------------------first card -->
+              <div class="card h-36 w-72 gap-4 border-b-4  border-[#1DD100] bg-base-100 shadow-xl">
+                <div class="card-body flex flex-row">
+                  <!-- card img -->
+                  <div>
+                    <img src="./images/people.png" alt="">
+                  </div>
+                  <!-- card title -->
+                  <div>
+                    <h1 class="font-bold inter-font text-[#030712] text-4xl">500K+</h1>
+                    <p class=" text-lg font-normal text-[#03071299]">Registered users</p>
+                  </div>
+                  <div class="card-actions justify-end">
+                   
+                  </div>
+                </div>
+              </div>
+              <!-- -------------------------secend card----------------- -->
+
+              <div class="card h-36 w-72 border-b-4 border-[#1DD100] bg-base-100 shadow-xl">
+                <div class="card-body flex flex-row">
+                  <!-- card img -->
+                  <div>
+                    <img src="./images/ticket-cupon.png" alt="">
+                  </div>
+                  <!-- card title -->
+                  <div>
+                    <h1 class="font-bold inter-font text-[#030712] text-4xl">1.7 lacks</h1>
+                    <p class=" text-lg font-normal text-[#03071299]">Tickets sold</p>
+                  </div>
+                  <div class="card-actions justify-end">
+                   
+                  </div>
+                </div>
+              </div>
+
+              <!------------------ third card------------ -->
+
+              <div class="card h-36 border-b-4 border-[#1DD100] w-72 bg-base-100 shadow-xl">
+                <div class="card-body flex flex-row">
+                  <!-- card img -->
+                  <div>
+                    <img src="./images/stoppage.png" alt="">
+                  </div>
+                  <!-- card title -->
+                  <div>
+                    <h1 class="font-bold inter-font text-[#030712] text-4xl">80K+</h1>
+                    <p class=" text-lg font-normal text-[#03071299]">Rental partners</p>
+                  </div>
+                  <div class="card-actions justify-end">
+                   
+                  </div>
+                </div>
+              </div>
+
+               
+            </div>
+    
+          </div>
+
+
+         </div>
+          <!-- banner section end -->
+
+    </header>
+    <main class="container raleway-font rounded-xl border-t-4 bg-[#F7F8F8] border-[#1DD100] mx-auto lg:px-24 px-8 my-8 ">
+<div class=" flex flex-col mt-12 justify-center items-center">
+  <h1 class="font-bold inter-font text-[#030712] text-4xl">P.H Paribahan</h1>
+  <p class=" text-lg font-normal text-[#03071299]">Yes, you can run unit tests and view the results directly within the app. The integrated testing features allow for a streamlined .</p>
+</div>
+<!-- green line -->
+<div class=" w-[1170px] h-[418px] flex  mx-auto bg-white">
+
+
+  <div>
+
+  </div>
+  <div>
+    <img src="./images/info-devider.png" alt="">
+
+  </div>
+  <div class="flex flex-col justify-center items-center">
+    <div><img src="./images/fare.png" alt=""></div>
+    <div >
+      <h1 class="font-bold inter-font text-[#030712] text-4xl">550 Taka</h1>
+      
+
+    </div>
+    <div>
+      <p class=" text-lg font-normal text-[#03071299]">Per Seat</p>
+    </div>
+  </div>
+
+
+</div>
+<!-- green line end -->
+
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
