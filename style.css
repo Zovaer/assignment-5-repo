@@ -10,3 +10,12 @@
   font-family: "Inter", sans-serif;
  
 }
+.kbd{
+  width: 20%;
+  height: 50px;
+}
+
+
+.seat {
+  cursor: pointer;
+}
